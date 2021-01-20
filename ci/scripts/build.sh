@@ -5,5 +5,5 @@ pushd dp-design-system
   npm run build
 popd
 
-cp -r dp-design-system/dist/* build/
+cp -r dp-design-system/dist/css/main.css build/
 ls build
