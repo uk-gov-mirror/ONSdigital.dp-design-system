@@ -1,0 +1,12 @@
+// Utility to create backgrounds
+@each $label, $colour in $tints-colours {
+  .u-bg-#{$label} {
+    background-color: $colour;
+  }
+  // Tints
+  @each $tint, $pct in $tints {
+    .u-bg-#{$label}-#{$tint} { 
+        background-color: scale-color($colour, $lightness:($pct)); // scales lightness by % amount
+      }
+  }
+}
