@@ -1,7 +1,7 @@
 // ONS Palette
 
 $spring-green: #a8bd3a;
-$mint-green: #00a3a6;
+$aqua-teal: #00a3a6;
 $sky-blue: #27a0cc;
 $ocean-blue: #206095;
 $night-blue: #003c57;
@@ -13,7 +13,7 @@ $flamingo-pink: #df0667;
 
 // supporting palette
 $ruby-red: #d0021b;
-$jaffa-orange: #f3781f;
+$jaffa-orange: #fe781f;
 $sun-yellow: #fbc900;
 $neon-yellow: #f0f762;
 $leaf-green: #0f8243;
@@ -31,7 +31,7 @@ $white: #fff;
 // tint amount and percentage lighter
 $tints: (70:30%, 40:60%, 10:90%);
 // colours to be used (currently all listed in colour palettes except greys)
-$tints-colours: ("spring-green":$spring-green, "mint-green":$mint-green, "sky-blue":$sky-blue, "ocean-blue":$ocean-blue, "night-blue":$night-blue, "indigo-blue":$indigo-blue, "plum-purple":$plum-purple, "flamingo-pink":$flamingo-pink, "ruby-red":$ruby-red, "jaffa-orange":$jaffa-orange, "sun-yellow":$sun-yellow, "neon-yellow":$neon-yellow, "leaf-green":$leaf-green);
+$tints-colours: ("spring-green":$spring-green, "aqua-teal":$aqua-teal, "sky-blue":$sky-blue, "ocean-blue":$ocean-blue, "night-blue":$night-blue, "indigo-blue":$indigo-blue, "plum-purple":$plum-purple, "flamingo-pink":$flamingo-pink, "ruby-red":$ruby-red, "jaffa-orange":$jaffa-orange, "sun-yellow":$sun-yellow, "neon-yellow":$neon-yellow, "leaf-green":$leaf-green);
 
 // Assignment
 

@@ -6,7 +6,7 @@
   // Tints
   @each $tint, $pct in $tints {
     .u-bg-#{$label}-#{$tint} { 
-        background-color: scale-color($colour, $lightness:($pct)); // scales lightness by % amount
+        background-color: mix($white, $colour, $pct); // scales lightness by % amount mix with white (https://sass-lang.com/documentation/modules/color#mix)
       }
   }
 }
