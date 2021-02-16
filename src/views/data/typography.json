@@ -1,0 +1,51 @@
+[
+  {
+    "name": "xxxl",
+    "weight": "bold",
+    "small": "32",
+    "large": "48",
+    "lineHeight": "1.3"
+  },
+  {
+    "name": "xxl",
+    "weight": "bold",
+    "small": "28",
+    "large": "36",
+    "lineHeight": "1.4"
+  },
+  {
+    "name": "xl",
+    "weight": "bold",
+    "small": "26",
+    "large": "30",
+    "lineHeight": "1.4"
+  },
+  {
+    "name": "l",
+    "weight": "bold",
+    "small": "24",
+    "large": "26",
+    "lineHeight": "1.4"
+  },
+  {
+    "name": "m",
+    "weight": "bold",
+    "small": "20",
+    "large": "22",
+    "lineHeight": "1.4"
+  },
+  {
+    "name": "r",
+    "weight": "regular",
+    "small": "18",
+    "large": "18",
+    "lineHeight": "1.4"
+  },
+  {
+    "name": "s",
+    "weight": "regular",
+    "small": "14",
+    "large": "14",
+    "lineHeight": "1.4"
+  }
+]

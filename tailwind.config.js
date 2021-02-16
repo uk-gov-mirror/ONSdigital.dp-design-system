@@ -14,7 +14,9 @@ module.exports = {
     colors: colors,
   },
   variants: {
-    extend: {},
+    extend: {
+      inset: ['active'],
+    },
   },
   plugins: [],
 };
