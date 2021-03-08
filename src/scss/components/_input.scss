@@ -1,0 +1,38 @@
+.dp-input {
+  appearance: none;
+  border: 1px solid $black;
+  color: inherit;
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 0.5rem;
+  position: relative;
+  width: 100%;
+  z-index: 3;
+
+  &:focus {
+    box-shadow: 0 0 0 3px $color-focus;
+    outline: 1px solid $black;
+    outline-offset: -2px;
+  }
+
+  &:disabled {
+    border-color: $grey2;
+    cursor: not-allowed;
+  }
+
+  &--error:not(:focus) {
+    border: 1px solid $ruby-red;
+    outline: 1px solid $ruby-red;
+    outline-offset: -2px;
+  }
+
+  &--textarea {
+    line-height: normal;
+    resize: vertical;
+  }
+
+  &--with-description {
+    margin-bottom: 0.55rem;
+  }
+}

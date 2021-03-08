@@ -36,12 +36,12 @@
 .dp-hide {
   @each $name, $value in $breakpoints {
     &--for-#{$name} {
-      @include mediaQuery($value) {
+      @include media-query($value) {
         display: none !important;
       }
     }
     &--for-#{$name}-up {
-      @include mediaQuery($value, 'xxl') {
+      @include media-query($value, 'xxl') {
         display: none !important;
       }
     }

@@ -27,7 +27,9 @@ h2 {
 }
 
 h3 {
-  @include font-size(map-get($type-matrix, 'dp-fs-m'), $base); }
+  @include font-size(map-get($type-matrix, 'dp-fs-m'), $base);
+}
 
 h4 {
-  @include font-size(map-get($type-matrix, 'dp-fs-r--b'), $base); }
+  @include font-size(map-get($type-matrix, 'dp-fs-r--b'), $base);
+}

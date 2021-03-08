@@ -3,15 +3,20 @@
 // Configuration and helpers
 @import 'abstracts/variables/colors',
   'abstracts/variables/typography',
-'abstracts/variables/breakpoints',
-'abstracts/functions/helpers',
-'abstracts/functions/colors',
-'abstracts/functions/conversions',
-'abstracts/mixins/typography';
+  'abstracts/variables/breakpoints',
+  'abstracts/functions/helpers',
+  'abstracts/functions/colors',
+  'abstracts/functions/conversions',
+  'abstracts/mixins/typography';
 
 // Base
 @import 'base/fonts',
   'base/typography',
-'base/utilities/hide',
-'base/generic',
-'base/experimental';
+  'base/utilities/hide',
+  'base/generic',
+  'base/experimental';
+
+// Components
+@import
+  'components/input',
+  'components/label';

@@ -2,6 +2,17 @@
   font-family: 'Open Sans';
   font-weight: $font-weight-regular;
   src:
+    url('https://cdn.ons.gov.uk/assets/fonts/open-sans-regular/OpenSans-Regular-webfont.eot?')
+    format('eot'),
+    url('https://cdn.ons.gov.uk/assets/fonts/open-sans-regular/OpenSans-Regular-webfont.woff2')
+    format('woff2'),
+    url('https://cdn.ons.gov.uk/assets/fonts/open-sans-regular/OpenSans-Regular-webfont.woff')
+    format('woff'),
+    url('https://cdn.ons.gov.uk/assets/fonts/open-sans-regular/OpenSans-Regular-webfont.ttf')
+    format('truetype'),
+    url('https://cdn.ons.gov.uk/assets/fonts/open-sans-regular/OpenSans-Regular-webfont.svg')
+    format('svg');
+  src:
     local('Open Sans'),
     local('Open Sans Regular'),
     url('https://cdn.ons.gov.uk/assets/fonts/open-sans-regular/OpenSans-Regular-webfont.eot?') format('eot'),
@@ -14,6 +25,17 @@
 @font-face {
   font-family: 'Open Sans';
   font-weight: $font-weight-bold;
+  src:
+    url('https://cdn.ons.gov.uk/assets/fonts/open-sans-bold/OpenSans-Bold-webfont.eot?')
+    format('eot'),
+    url('https://cdn.ons.gov.uk/assets/fonts/open-sans-bold/OpenSans-Bold-webfont.woff2')
+    format('woff2'),
+    url('https://cdn.ons.gov.uk/assets/fonts/open-sans-bold/OpenSans-Bold-webfont.woff')
+    format('woff'),
+    url('https://cdn.ons.gov.uk/assets/fonts/open-sans-bold/OpenSans-Bold-webfont.ttf')
+    format('truetype'),
+    url('https://cdn.ons.gov.uk/assets/fonts/open-sans-bold/OpenSans-Bold-webfont.svg')
+    format('svg');
   src:
     local('Open Sans'),
     local('Open Sans Bold'),
