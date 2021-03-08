@@ -2,52 +2,51 @@
 // ----------------------------------------------------- ONS COLORS ----------------------------------------------------
 
 // --- ONS General palette ---
-$spring-green: #A8BD3A;
-$aqua-teal: #00A3A6;
-$sky-blue: #27A0CC;
+$spring-green: #a8bd3a;
+$aqua-teal: #00a3a6;
+$sky-blue: #27a0cc;
 $ocean-blue: #206095;
-$night-blue: #003C57;
+$night-blue: #003c57;
 
 // --- Census ---
-$indigo-blue: #3C388E;
+$indigo-blue: #3c388e;
 $plum-purple: #902082;
-$flamingo-pink: #DF0667;
+$flamingo-pink: #df0667;
 
 // --- Supporting palette ---
-$ruby-red: #D0021B;
-$jaffa-orange: #FE781F;
-$sun-yellow: #FBC900;
-$neon-yellow: #F0F762;
-$leaf-green: #0F8243;
+$ruby-red: #d0021b;
+$jaffa-orange: #fe781f;
+$sun-yellow: #fbc900;
+$neon-yellow: #f0f762;
+$leaf-green: #0f8243;
 
 // --- Grays ---
 $black: #222;
 $grey1: #414042;
 $grey2: #707071;
-$grey3: #BCBCBD;
-$grey4: #E2E2E3;
-$grey5: #F5F5F6;
-$white: #FFF;
-
+$grey3: #bcbcbd;
+$grey4: #e2e2e3;
+$grey5: #f5f5f6;
+$white: #fff;
 
 // --- Tints ---
 // Allowed tint percentages
 $tints: (70, 40, 10);
 // colours to be used (currently all listed in colour palettes except greys)
 $tintable-colors: (
-        $spring-green,
-        $aqua-teal,
-        $sky-blue,
-        $ocean-blue,
-        $night-blue,
-        $indigo-blue,
-        $plum-purple,
-        $flamingo-pink,
-        $ruby-red,
-        $jaffa-orange,
-        $sun-yellow,
-        $neon-yellow,
-        $leaf-green);
+  $spring-green,
+  $aqua-teal,
+  $sky-blue,
+  $ocean-blue,
+  $night-blue,
+  $indigo-blue,
+  $plum-purple,
+  $flamingo-pink,
+  $ruby-red,
+  $jaffa-orange,
+  $sun-yellow,
+  $neon-yellow,
+  $leaf-green);
 
 // Assignment
 $text-color: $black;
@@ -59,13 +58,13 @@ $error-color: $ruby-red;
 
 // --- Charts ---
 // Palette 1
-$dp-chart-palette-1: ($ocean-blue, $sky-blue, $night-blue, #118C7B, $spring-green);
+$dp-chart-palette-1: ($ocean-blue, $sky-blue, $night-blue, #118c7b, $spring-green);
 
 // Palette 2
-$dp-chart-palette-2: join($dp-chart-palette-1, (#871A6B, #F66068, #746CB1, #22D0B6));
+$dp-chart-palette-2: join($dp-chart-palette-1, (#871a6b, #f66068, #746cb1, #22d0b6));
 
 // Palette 3
-$dp-chart-palette-3: ($ocean-blue, $sky-blue, #871A6B, $spring-green, #F66068);
+$dp-chart-palette-3: ($ocean-blue, $sky-blue, #871a6b, $spring-green, #f66068);
 
 // Highlight color for all pallets
-$dp-chart-highlight: #F39431;
+$dp-chart-highlight: #f39431;

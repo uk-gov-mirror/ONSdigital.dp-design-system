@@ -1,13 +1,13 @@
 * {
+  box-sizing: border-box; /* included border size as part of width value */
   margin: 0; /* remove all default margins */
   padding: 0; /* remove all default padding */
-  box-sizing: border-box; /* included border size as part of width value */
 }
 
 html {
-  width: 100%;
+  background: #ffffff;
   height: 100vh;
-  background: white;
+  width: 100%;
 }
 
 body {

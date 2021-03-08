@@ -10,25 +10,25 @@
 
 // Hide only visually, but have it available for screenreaders
 .dp-visuallyhidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
   border: 0;
-  overflow: hidden;
   clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
   white-space: nowrap;
+  width: 1px;
 
   // Allow the element to be focusable when navigated to via the keyboard
   &.focusable:active,
   &.focusable:focus {
-    position: static;
-    width: auto;
+    clip: auto;
     height: auto;
     margin: 0;
     overflow: visible;
-    clip: auto;
+    position: static;
+    width: auto;
   }
 }
 
@@ -41,10 +41,9 @@
       }
     }
     &--for-#{$name}-up {
-      @include mediaQuery($value, "xxl") {
+      @include mediaQuery($value, 'xxl') {
         display: none !important;
       }
     }
   }
 }
-

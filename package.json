@@ -31,7 +31,8 @@
   "devDependencies": {
     "@11ty/eleventy": "^0.11.1",
     "@11ty/eleventy-navigation": "^0.1.6",
-    "autoprefixer": "^10.2.4",
+    "autoprefixer": "^10.2.5",
+    "cssnano": "^4.1.10",
     "dart-sass": "^1.25.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
@@ -39,14 +40,19 @@
     "gulp-postcss": "^9.0.0",
     "gulp-sass": "^4.1.0",
     "gulp-sourcemaps": "^3.0.0",
+    "gulp-stylelint": "^13.0.0",
+    "http-server": "^0.12.3",
     "npm-run-all": "^4.1.5",
-    "postcss": "^8.2.6",
+    "onchange": "^7.1.0",
+    "postcss": "^8.2.7",
+    "postcss-bem-linter": "^3.3.0",
     "postcss-cli": "^8.3.1",
+    "postcss-reporter": "^7.0.2",
     "rimraf": "^3.0.2",
     "sass-lint": "^1.13.1",
-    "tailwindcss": "^2.0.3",
-    "cssnano": "^4.1.10",
-    "http-server": "^0.12.3",
-    "onchange": "^7.1.0"
+    "stylelint": "^13.12.0",
+    "stylelint-config-sass-guidelines": "^8.0.0",
+    "stylelint-config-standard": "^21.0.0",
+    "tailwindcss": "^2.0.3"
   }
 }

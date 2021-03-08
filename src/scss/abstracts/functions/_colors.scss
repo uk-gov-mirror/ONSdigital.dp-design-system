@@ -6,9 +6,13 @@
     @if index($tints, $percentage) {
       @return mix(white, $color, $percentage);
     }
-    @error "Invalid `#{$percentage}`. Please use an approved tint percentage such as: `#{$tints}`";
+
+    @error 'Invalid `#{$percentage}`. Please use an approved tint percentage such as: `#{$tints}`';
+
     @return null;
   }
-  @error "Invalid `#{$color}` Please use an approved tintable color such as: `#{$tintable-colors}`";
+
+  @error 'Invalid `#{$color}` Please use an approved tintable color such as: `#{$tintable-colors}`';
+
   @return null;
 }

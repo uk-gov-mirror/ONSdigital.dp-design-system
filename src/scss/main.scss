@@ -1,12 +1,8 @@
 @charset "UTF-8";
 
-// --------------------------- Autoprefixer control comments DO NOT REMOVE unless intentional --------------------------
-/* autoprefixer grid: autoplace */
-// -------------------------------------------------------- END --------------------------------------------------------
-
 // Configuration and helpers
 @import 'abstracts/variables/colors',
-'abstracts/variables/typography',
+  'abstracts/variables/typography',
 'abstracts/variables/breakpoints',
 'abstracts/functions/helpers',
 'abstracts/functions/colors',
@@ -15,7 +11,7 @@
 
 // Base
 @import 'base/fonts',
-'base/typography',
+  'base/typography',
 'base/utilities/hide',
 'base/generic',
 'base/experimental';

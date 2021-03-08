@@ -10,27 +10,37 @@
 
   @if ($from == none or $from <= nth(nth($breakpoints, 1), 2)) and $to == none {
     @content;
-  } @else if $from == none or $from <= nth(nth($breakpoints, 1), 2) {
+  }
+
+  @else if $from == none or $from <= nth(nth($breakpoints, 1), 2) {
     @if $to-operator != none and $to-operator == '<' {
       $to: $to - 1;
     }
+
     @media (max-width: $to) {
       @content;
     }
-  } @else if $to == none {
+  }
+
+  @else if $to == none {
     @if $from-operator != none and $from-operator == '<' {
       $from: $from + 1;
     }
+
     @media (min-width: $from) {
       @content;
     }
-  } @else {
+  }
+
+  @else {
     @if $from-operator != none and $from-operator == '<' {
       $from: $from + 1;
     }
+
     @if $to-operator != none and $to-operator == '<' {
       $to: $to - 1;
     }
+
     @media (min-width: $from) and (max-width: $to) {
       @content;
     }
@@ -41,7 +51,9 @@
 @function get-bp-width($name, $breakpoints: $breakpoints) {
   @if map-has-key($breakpoints, $name) {
     @return map-get($breakpoints, $name);
-  } @else {
+  }
+
+  @else {
     @error 'Breakpoint #{$name} wasn\'t found in $breakpoints: #{$breakpoints}';
   }
 }

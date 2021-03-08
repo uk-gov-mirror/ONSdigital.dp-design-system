@@ -1,42 +1,43 @@
 .wrapper_grid_1 {
-  display: grid;
-  grid-template-areas:
-               "header"
-               "content"
-               "sidebar"
-               "footer";
-  grid-template-rows: auto 1fr auto;
   background-color: #fff;
   color: #444;
+  display: grid;
+  grid-template-areas:
+    'header'
+    'content'
+    'sidebar'
+    'footer';
+  grid-template-rows: auto 1fr auto;
   margin: 0 auto;
-  width: 100%;
   max-width: 960px;
+  width: 100%;
 
-  @include mediaQuery("m") {
-    grid-template-areas:
-               "....... header  header"
-               "sidebar content content"
-               "footer footer footer";
-    grid-template-columns: 2fr 4fr;
+  @include mediaQuery('m') {
     grid-column-gap: 2em;
     grid-row-gap: 20px;
+    grid-template-areas:
+      '....... header  header'
+      'sidebar content content'
+      'footer footer footer';
+    grid-template-columns: 2fr 4fr;
   }
 }
-.grid_container{
+
+.grid_container {
   padding: 0 1em;
 }
 
 .box {
   background-color: #444;
-  color: #fff;
   border-radius: 5px;
-  padding: 20px;
+  color: #fff;
   font-size: 150%;
+  padding: 20px;
 }
 
 .sidebar_content {
-  grid-area: sidebar;
   background-color: #efefef;
+  grid-area: sidebar;
   padding: 10px;
 }
 
@@ -45,9 +46,9 @@
 }
 
 .header_content {
-  grid-area: header;
   border-bottom: 1px dotted #999;
-  margin: 1em 0 1em 0;
+  grid-area: header;
+  margin: 1em 0;
 }
 
 .content_heading {
@@ -55,9 +56,9 @@
 }
 
 .footer_content {
-  grid-area: footer;
   background-color: #666;
   color: #fff;
+  grid-area: footer;
   padding: 10px;
 }
 
@@ -65,6 +66,43 @@
   grid-area: content;
 }
 
-.grid_container_tiles{
+.grid_container_tiles {
   display: grid;
+}
+
+.a1 {
+  display: grid;
+  //grid-area: 2 / 1 / span 2 / span 3;
+  //grid-auto-columns: 1fr;
+  // grid-auto-flow: column;
+  // grid-auto-rows: 1fr;
+  // grid-column-gap: 20px;
+  // grid-column-start: 2;
+  //grid-column: 1;
+  // grid-gap: 10px;
+  // grid-row-end: 3;
+  // grid-row-gap: 10px;
+  // grid-row-start: 2;
+  // grid-row: 1;
+  // grid-template-areas:
+  //             "....... header  header"
+  //             "sidebar content content"
+  //             "footer footer footer";
+  // grid-template-columns:repeat(3, 1fr);
+  //grid-template-rows: 1fr 2fr;
+  // grid-template: "a a a" 40px;
+  // grid: auto-flow dense / 40px 40px 1fr;;
+  // justify-items: center;
+  // align-items: center;
+  // place-items: center;
+  // justify-content: center;
+  // align-content: center;
+  // place-content: center;
+  // justify-self: center;
+  // align-self: center;
+  // place-self: center;
+}
+
+.something___I-like--cheese.hmm {
+  height: 10px;
 }
