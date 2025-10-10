@@ -1,5 +1,11 @@
 # dp-design-system
 
+---
+
+:warning: This library is deprecated and is no longer in active development. Use `dis-design-system-go` instead. Follow the [instructions](https://github.com/ONSdigital/dis-design-system-go/blob/main/MIGRATION.md) to migrate your app. :warning:
+
+---
+
 [![GitHub release](https://img.shields.io/github/release/ONSdigital/dp-design-system.svg)](https://github.com/ONSdigital/dp-design-system/releases)
 
 `dp-design-system` is the Digital Publishing (DP) build of the [ONS Design System](https://service-manual.ons.gov.uk/design-system).
